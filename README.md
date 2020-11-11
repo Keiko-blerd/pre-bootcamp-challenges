@@ -8,7 +8,7 @@ git clone https://github.com/Keiko-blerd/pre-bootcamp-challenges.git
 
 cd into pre-bootcamp-challenges.
 
-cd into each folder of the task and run **python name_of_file.py**
+cd into each folder task to see the file name run **python name_of_file.py**
 
 for python3 run **python3 name_of_file.py**
 
