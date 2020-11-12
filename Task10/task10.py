@@ -13,8 +13,6 @@ def printVowels(str):
         i += 1
     print(s.join(result))
     
-
-
 print("Enter Any String")
 str = input()
 printVowels(str)
