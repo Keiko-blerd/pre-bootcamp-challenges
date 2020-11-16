@@ -3,8 +3,7 @@
 
 def fahrenheit():
     print("Enter the temperature in Celsius")
-    t = int(input())
-    #The temperature t in degrees Fahrenheit (°F) is equal to the temperature t in degrees Celsius (°C) times 1.8 plus 32:
+    t = float(input())
     f = t * 1.8
     f += 32
     return(f)
