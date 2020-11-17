@@ -15,7 +15,7 @@ def func(x,y):
             sumcheck = sumcheck
         i += 1
     
-    if x == 3 or y == 3 or sumcheck == "yes":
+    if x == 3 or y == 3 and sumcheck == "yes":
         return(True)
     else:
         return(False)
