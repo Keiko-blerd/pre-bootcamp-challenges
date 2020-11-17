@@ -2,11 +2,7 @@
 #If either of the numbers is 3, OR if the sum of the numbers contains a 3 then return true. 
 #Otherwise return false
 
-def func():
-    print("Please enter a number")
-    x = int(input())
-    print("please enter another number")
-    y = int(input())
+def func(x,y):
     sum = (x + y)
     sum_str = str(sum)
     sumcheck = "no"
@@ -23,5 +19,3 @@ def func():
         return(True)
     else:
         return(False)
-
-print(func())

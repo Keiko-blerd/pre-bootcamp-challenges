@@ -3,14 +3,7 @@
 #The function should return the area of a triangle.
 from math import sqrt
 
-def area():
-    print("Please enter a number")
-    x = int(input())
-    print("please enter another number")
-    y = int(input())
-    print("please enter the last number")
-    z = int(input())
-
+def area(x,y,z):
     half = 0.5
     s = half * (x + y + z)
     area1 = s - x
@@ -20,5 +13,3 @@ def area():
     area5 = s * area4
     area = sqrt(area5)
     return(area)
-
-print("The Area of the triangle is", area(), "square centimeters.")
