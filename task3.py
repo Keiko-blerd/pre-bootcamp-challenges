@@ -2,9 +2,11 @@
 #If either of the numbers is 65, OR if the sum of the numbers is 65 then return true. 
 #Otherwise return false
 
-def func(x,y):
-    sum = (x + y)
+def sixty_five_checker(x,y):
+    sum = x + y
     if (x == 65 or y == 65 or sum == 65):
-        return(True)
+        return True
     else:
-        return(False)
+        return False
+
+print(sixty_five_checker(60,5))
