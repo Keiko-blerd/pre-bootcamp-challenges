@@ -3,7 +3,7 @@
 #The function should return the area of a triangle.
 from math import sqrt
 
-def area(x,y,z):
+def area_of_triangle(x,y,z):
     half = 0.5
     s = half * (x + y + z)
     area1 = s - x
@@ -12,4 +12,4 @@ def area(x,y,z):
     area4 = area1 * area2 * area3
     area5 = s * area4
     area = sqrt(area5)
-    return(area)
+    return area
